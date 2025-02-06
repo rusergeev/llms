@@ -12,3 +12,5 @@ dependencies:
   - anthropic
   - google-generativeai
   - ollama
+  - pip:
+    - gradio
