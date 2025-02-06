@@ -29,6 +29,8 @@ class OpenAIModel(Model):
 
     def stream(self, system_prompt: str, user_prompt: str) -> Generator[str, None, None]:
         """Streams response from OpenAI API"""
-        response = self._create_response(system_prompt, user_prompt, stream=True)
-        for chunk in response:
-            yield chunk.choices[0].delta.content or ""
+        stream = self._create_response(system_prompt, user_prompt, stream=True)
+        result = ""
+        for chunk in stream:
+            result += chunk.choices[0].delta.content or ""
+            yield result
