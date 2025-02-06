@@ -2,7 +2,7 @@ from typing import Optional, Generator
 
 from openai import OpenAI
 
-from model import Model
+from models import Model
 
 
 

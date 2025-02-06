@@ -7,6 +7,7 @@ dependencies:
   - pip
   - jupyter
   - requests
+  - python-dotenv
   - openai
   - anthropic
   - google-generativeai

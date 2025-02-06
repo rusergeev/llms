@@ -1,6 +1,6 @@
 # Claude (Anthropic) Model
 from typing import Optional, Generator
-from model import Model
+from models import Model
 import anthropic
 
 
