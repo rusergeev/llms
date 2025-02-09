@@ -14,5 +14,6 @@ dependencies:
   - ollama
   - ffmpeg
   - pydub
+  - pillow
   - pip:
     - gradio

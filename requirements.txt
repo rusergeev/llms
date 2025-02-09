@@ -6,3 +6,4 @@ gradio~=5.15.0
 python-dotenv~=0.21.0
 ipython~=8.32.0
 pydub~=0.25.1
+pillow~=11.1.0
