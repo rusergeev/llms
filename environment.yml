@@ -13,5 +13,6 @@ dependencies:
   - google-generativeai
   - ollama
   - ffmpeg
+  - pydub
   - pip:
     - gradio
