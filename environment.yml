@@ -12,5 +12,6 @@ dependencies:
   - anthropic
   - google-generativeai
   - ollama
+  - ffmpeg
   - pip:
     - gradio
